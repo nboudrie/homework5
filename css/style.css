@@ -78,7 +78,7 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
   display: flex;
-  
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -216,10 +216,27 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  .pricing {
+   align-items: flex-start;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  #gallery {
+    display: none;
+  }
+
+  body {
+    background-image: none;
+  }
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
-@media (prefers-reduced-motion: reduced-motion) {
-
+@media (prefers-reduced-motion: reduced) {
+  #logo{
+    animation: none;
+  }
 }
