@@ -195,6 +195,7 @@ header{
     /*Your code here again.*/  
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links{
