@@ -161,7 +161,8 @@ header{
 
 .nav_links{
   /*Your code here again.*/
-
+  display: flex;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -181,7 +182,7 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
-    flex-basis: 400px;
+    flex-basis: 225px;
   }
 
   .card_big{
@@ -193,13 +194,13 @@ header{
   header{
     /*Your code here again.*/  
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/  
+    display: flex;
+    flex-direction: row;
   }
 
   .nav_item a{
