@@ -78,9 +78,10 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
   display: flex;
-  flex-direction: column;
+  
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
